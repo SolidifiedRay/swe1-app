@@ -23,7 +23,7 @@ deploy:
     secure: $ACCESS_KEY_ID
   secret_access_key:
     secure: $SECRET_ACCESS_KEY
-  region: "us-east-1"
-  app: "example-app-name"
-  env: "example-app-environment"
-  bucket_name: "the-target-S3-bucket"
+  region: "us-west-2"
+  app: "django-tutorial"
+  env: "django-env"
+  bucket_name: "django-env.eba-gzukpxeu.us-west-2.elasticbeanstalk.com"
